@@ -1,7 +1,7 @@
-subject: Awards
-listing-order: 6
-icon: "/assets/img/trophy.svg"
-contents:
+# subject: Awards
+# listing-order: 6
+# icon: "/assets/img/trophy.svg"
+# contents:
   # Awards section kept empty - to be filled when awards are available
   # - title: Award Name
   #   description: Description of the award
