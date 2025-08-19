@@ -84,12 +84,12 @@ a { text-decoration:none; }
 
     .profile-zone .personal-info {
         position: absolute;
-        right: 2rem;
+        right: 1rem;
         top: 50%;
         transform: translateY(-50%);
         display: flex;
         flex-direction: row;
-        gap: 1.5rem;
+        gap: 1rem;
         justify-content: center;
         align-items: center;
     }
@@ -292,6 +292,96 @@ a { text-decoration:none; }
     a { 
         color: var(--theme1-dark);
         font-weight: 600;
+    }
+}
+
+/* Mobile-first optimizations */
+@media (max-width: 480px) {
+    #about {
+        .profile-zone {
+            height: 180px;
+            min-height: 180px;
+            margin: 2rem auto;
+        }
+
+        .profile-zone .profile-img {
+            width: 140px;
+            height: 140px;
+        }
+
+        .profile-zone .personal-info {
+            right: 0.5rem;
+            gap: 0.8rem;
+        }
+
+        .profile-zone .personal-info img {
+            width: 20px;
+        }
+
+        .profile-zone .personal-info a {
+            padding: 0.5rem;
+            margin: -0.5rem;
+            min-height: 44px;
+            min-width: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .name-zone h1 {
+            font-size: 1.5rem;
+        }
+
+        .name-zone h2 {
+            font-size: 1rem;
+        }
+    }
+
+    #contents {
+        width: 95%;
+        margin-left: 2.5%;
+
+        .subject-name {
+            font-size: 1.2rem;
+            margin-left: -8px;
+        }
+
+        .subject-icon {
+            width: 24px;
+        }
+
+        .content-header p {
+            font-size: 14px;
+        }
+
+        .content-date {
+            font-size: 12px;
+            width: auto;
+        }
+    }
+}
+
+/* Small tablets */
+@media (max-width: 767px) and (min-width: 481px) {
+    #about {
+        .profile-zone {
+            height: 200px;
+            min-height: 200px;
+        }
+
+        .profile-zone .profile-img {
+            width: 160px;
+            height: 160px;
+        }
+
+        .profile-zone .personal-info {
+            gap: 1rem;
+        }
+    }
+
+    #contents {
+        width: 90%;
+        margin-left: 5%;
     }
 }
 
