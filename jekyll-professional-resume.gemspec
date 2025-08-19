@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
     spec.name          = "jekyll-professional-resume"
     spec.version       = "1.0.1"
-    spec.authors       = ["Yankos"]
-    spec.email         = ["byanko55@gmail.com"]
+    spec.authors       = ["Hamza Rasheed"]
+    spec.email         = ["hamxa.hnd@gmail.com"]
   
     spec.summary       = "Simple Academic/Professional Resume powered on Jekyll"
-    spec.homepage      = "https://github.com/byanko55/jekyll-professional-resume"
+    spec.homepage      = "https://github.com/hmzarasheed/jekyll-professional-resume"
     spec.license       = "MIT"
   
     spec.files         = `git ls-files -z`.split("\x0").select {

@@ -28,7 +28,7 @@
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
         {% if site.phone_number %}
-        <li><a aria-label="My Phone">
+        <li><a aria-label="My Phone" href="tel:{{ site.phone_number }}">
           <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
           <div><span>{{ site.phone_number }}</span></div>
         </a></li>
@@ -57,36 +57,13 @@
             <div><span>@{{ site.github_username }}</span></div>
           </a></li>
         {% endif %}
-        {% if site.twitter_username %}
-          <li><a aria-label="My Twitter" href="https://twitter.com/{{ site.twitter_username }}">
-            <img src="{{ '/assets/img/twitter.svg' | prepend: site.baseurl }}" alt="My Twitter">
-            <div><span>@{{ site.twitter_username }}</span></div>
+        {% if site.resume_page %}
+          <li><a aria-label="My Resume" href="{{ site.resume_page | prepend: site.baseurl }}" target="_blank">
+            <img src="{{ '/assets/img/clipboard-list.svg' | prepend: site.baseurl }}" alt="My Resume">
+            <div><span>Resume</span></div>
           </a></li>
         {% endif %}
-        {% if site.instagram_username %}
-          <li><a aria-label="My Instagram" href="https://www.instagram.com/{{ site.instagram_username }}">
-            <img src="{{ '/assets/img/instagram.svg' | prepend: site.baseurl }}" alt="My Instagram">
-            <div><span>@{{ site.instagram_username }}</span></div>
-          </a></li>
-        {% endif %}
-        {% if site.facebook_username %}
-          <li><a aria-label="My Facebook" href="https://www.facebook.com/{{ site.facebook_username }}">
-            <img src="{{ '/assets/img/facebook.svg' | prepend: site.baseurl }}" alt="My Facebook">
-            <div><span>@{{ site.facebook_username }}</span></div>
-          </a></li>
-        {% endif %}
-        {% if site.youtube_username %}
-          <li><a aria-label="My Youtube" href="https://www.youtube.com/{{ site.youtube_username }}">
-            <img src="{{ '/assets/img/youtube.svg' | prepend: site.baseurl }}" alt="My Youtube">
-            <div><span>@{{ site.youtube_username }}</span></div>
-          </a></li>
-        {% endif %}
-        {% if site.blog_url %}
-          <li><a aria-label="My Blog" href="{{ site.blog_url }}">
-            <img src="{{ '/assets/img/house.svg' | prepend: site.baseurl }}" alt="My Blog">
-            <div><span>{{ site.blog_url }}</span></div>
-          </a></li>
-        {% endif %}
+
       </ul>
     </div>
     <div class="name-zone">
@@ -140,7 +117,7 @@
   </div>
   <div id="footer">
     <span>
-      Copyright © 2024 | <a href="https://github.com/byanko55">Yankos</a>
+      Copyright © 2025 | <a href="https://github.com/hmzarasheed">Hamza Rasheed</a>
     </span>
   </div>
 </body>

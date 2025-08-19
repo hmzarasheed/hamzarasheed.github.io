@@ -6,3 +6,21 @@ _site
 vendor
 Gemfile.lock
 *.gem
+
+# Personal data and sensitive files
+*.pdf
+assets/img/profile.*
+assets/img/icon.*
+_config.yml
+_data/
+
+# Personal documents
+resume.*
+cv.*
+*.docx
+*.doc
+
+# Personal images
+profile.*
+headshot.*
+photo.*

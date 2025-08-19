@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.9-green.svg)](https://jekyllrb.com/)
 [![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
-<a href="https://jekyll-themes.com/byanko55/jekyll-professional-resume">
+<a href="https://jekyll-themes.com/hmzarasheed/jekyll-professional-resume">
   <img
     src="https://img.shields.io/badge/featured%20on-JT-red.svg"
     height="20"
@@ -14,12 +14,12 @@
 
 A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.
 
-Live demo is available [here](https://byanko55.github.io/resume-demo/).
+Live demo is available [here](https://hmzarasheed.github.io/jekyll-professional-resume/).
 
 ![demo](https://i.ibb.co/HYshYc0/231232121.webp)
 
 ## Setup
-Fork [this repository](https://github.com/byanko55/jekyll-professional-resume) or download the [source](https://github.com/byanko55/jekyll-professional-resume/releases) as a zip.
+Fork [this repository](https://github.com/hmzarasheed/jekyll-professional-resume) or download the [source](https://github.com/hmzarasheed/jekyll-professional-resume/releases) as a zip.
 
 **Rename your repository as USERNAME.github.io or anything else.**
 
@@ -145,7 +145,7 @@ contents:
 
 ## Build from Gem package
 
-If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/byanko55/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
+If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/hmzarasheed/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
 
 ## Customizing
 
@@ -173,8 +173,10 @@ icon_img: "<IMAGE URL/PATH>"
 ```
 
 ## Contribution
-If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-professional-resume/issues) We are open to any kind of feedback or collaboration.
+If you would like to report a bug or request a new feature, please open [an issue](https://github.com/hmzarasheed/jekyll-professional-resume/issues) We are open to any kind of feedback or collaboration.
 <br></br>
 
 ## License
-© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
+© 2025 *Hamza Rasheed*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
+
+**Original theme created by [Yankos](https://github.com/byanko55/jekyll-professional-resume)**
