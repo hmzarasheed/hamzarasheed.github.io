@@ -1,7 +1,7 @@
-# subject: Experiences
-# listing-order: 2
-# icon: "/assets/img/briefcase.svg"
-# contents:
+subject: Experiences
+listing-order: 2
+icon: "/assets/img/briefcase.svg"
+contents:
   # Experience section kept empty - to be filled when experiences are available
   # - title: Company Name
   #   role: Position Title
