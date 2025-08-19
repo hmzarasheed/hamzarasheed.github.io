@@ -14,9 +14,7 @@
 
 A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.
 
-Live demo is available [here](https://hmzarasheed.github.io/jekyll-professional-resume/).
-
-![demo](https://i.ibb.co/HYshYc0/231232121.webp)
+Live demo is available [here](https://hamzarasheed.github.io/).
 
 ## Setup
 Fork [this repository](https://github.com/hmzarasheed/jekyll-professional-resume) or download the [source](https://github.com/hmzarasheed/jekyll-professional-resume/releases) as a zip.
@@ -108,19 +106,15 @@ subject: Education
 listing-order: 1
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: Stanfort University, MA in Computer Science
+  - title: Your University, Your Degree
     description:
-      - Development of algorithms for tracking the facial expressions
-      - Optimizing parameter efficient fine tuning for fairness
-    grade: "**GPA**: `4.1/4.3`"
-    date: Mar. 2014 - Feb. 2016
+      - Your educational achievements
+      - Your academic focus areas
+    grade: "**GPA**: `Your GPA`"
+    date: Your dates
   ...
 
 ```
-
-The rendered output looks like this:
-
-![example1](https://i.ibb.co/9TGKPrv/123312.webp)
 
 See also the advanced example. 
 
@@ -131,17 +125,15 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Your Project Name"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
+      - Project description and achievements
+      - Key technologies and methodologies used
+      - "Technology Used: Your tech stack"
+    image: "![](path/to/your/project/image)"
   ...
 
 ```
-
-![example](https://i.ibb.co/tCNCyYr/231321.webp)
 
 ## Build from Gem package
 
@@ -166,7 +158,7 @@ Wanna pick another color? You can edit the base theme palette in `assets/css/sty
 
 ### Site Shortcut Icon
 To replace the shortcut icon displayed on browser tab, modify *icon_img* field in `_config.yml`.
-![shortcut](https://i.ibb.co/g9cYjRj/213213214.webp)
+
 
 ```yml
 icon_img: "<IMAGE URL/PATH>"
