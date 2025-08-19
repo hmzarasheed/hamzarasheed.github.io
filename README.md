@@ -17,7 +17,7 @@ A simple and modern resume template, best fit for either **Academic CV (Curricul
 Live demo is available [here](https://hmzarasheed.github.io/).
 
 ## Setup
-Fork [this repository](https://github.com/hmzarasheed/hmzarasheed.github.io) or download the [source](https://github.com/hmzarasheed/hmzarasheed.github.io/releases) as a zip.
+Fork [this repository](https://github.com/byanko55/jekyll-professional-resume) or download the [source](https://github.com/byanko55/jekyll-professional-resume/releases) as a zip.
 
 **Rename your repository as USERNAME.github.io or anything else.**
 
@@ -137,7 +137,7 @@ contents:
 
 ## Build from Gem package
 
-If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/hmzarasheed/hmzarasheed.github.io/blob/master/docs/Installation%20from%20package.md).
+If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/byanko55/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
 
 ## Customizing
 
