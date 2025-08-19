@@ -7,20 +7,11 @@ vendor
 Gemfile.lock
 *.gem
 
-# Personal data and sensitive files
-*.pdf
-assets/img/profile.*
-assets/img/icon.*
-_config.yml
-_data/
-
-# Personal documents
-resume.*
-cv.*
+# Sensitive personal documents (keep private)
 *.docx
 *.doc
 
-# Personal images
-profile.*
-headshot.*
-photo.*
+# Optional: Uncomment these lines if you want to keep certain files private
+# *.pdf
+# resume.*
+# cv.*
