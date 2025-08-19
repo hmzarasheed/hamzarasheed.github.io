@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.9-green.svg)](https://jekyllrb.com/)
 [![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
-<a href="https://jekyll-themes.com/hmzarasheed/jekyll-professional-resume">
+<a href="https://jekyll-themes.com/hmzarasheed/hmzarasheed.github.io">
   <img
     src="https://img.shields.io/badge/featured%20on-JT-red.svg"
     height="20"
@@ -14,10 +14,10 @@
 
 A simple and modern resume template, best fit for either **Academic CV (Curriculum Vitae)** or **Engineer Portfolio**.
 
-Live demo is available [here](https://hamzarasheed.github.io/).
+Live demo is available [here](https://hmzarasheed.github.io/).
 
 ## Setup
-Fork [this repository](https://github.com/hmzarasheed/jekyll-professional-resume) or download the [source](https://github.com/hmzarasheed/jekyll-professional-resume/releases) as a zip.
+Fork [this repository](https://github.com/hmzarasheed/hmzarasheed.github.io) or download the [source](https://github.com/hmzarasheed/hmzarasheed.github.io/releases) as a zip.
 
 **Rename your repository as USERNAME.github.io or anything else.**
 
@@ -137,7 +137,7 @@ contents:
 
 ## Build from Gem package
 
-If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/hmzarasheed/jekyll-professional-resume/blob/master/docs/Installation%20from%20package.md).
+If you don't like the above setup option (clone/fork the original github repo), then you can also build your site by installing the gem package remotely. Read this altenative [guide](https://github.com/hmzarasheed/hmzarasheed.github.io/blob/master/docs/Installation%20from%20package.md).
 
 ## Customizing
 
@@ -165,7 +165,7 @@ icon_img: "<IMAGE URL/PATH>"
 ```
 
 ## Contribution
-If you would like to report a bug or request a new feature, please open [an issue](https://github.com/hmzarasheed/jekyll-professional-resume/issues) We are open to any kind of feedback or collaboration.
+If you would like to report a bug or request a new feature, please open [an issue](https://github.com/hmzarasheed/hmzarasheed.github.io/issues) We are open to any kind of feedback or collaboration.
 <br></br>
 
 ## License
