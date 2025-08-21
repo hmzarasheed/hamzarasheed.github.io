@@ -40,10 +40,18 @@
         </a></li>
         {% endif %}
         {% if site.email %}
-          <li class="contact-left"><a aria-label="My Email" href="mailto:{{ site.email }}">
+        <li class="contact-left">
+          <a aria-label="My Email" href="mailto:{{ site.email }}" 
+             onclick="setTimeout(() => {
+               if (document.visibilityState === 'visible') {
+                 window.open('https://mail.google.com/mail/?view=cm&to={{ site.email }}','_blank');
+               }
+             }, 500);">
             <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
             <div><span>{{ site.email }}</span></div>
-          </a></li>
+          </a>
+        </li>
+        
         {% endif %}
         {% if site.linkedin_username %}
           <li class="contact-right"><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
