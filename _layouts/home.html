@@ -27,12 +27,7 @@
     <div class="profile-zone">
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
-        {% if site.phone_number %}
-        <li class="contact-left"><a aria-label="My Phone" href="tel:{{ site.phone_number }}">
-          <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
-          <div><span>{{ site.phone_number }}</span></div>
-        </a></li>
-        {% endif %}
+       
         {% if site.address %}
         <li class="contact-left"><a aria-label="My Address" href="https://www.google.com/maps/search/{{ site.address }}">
           <img src="{{ '/assets/img/location-dot.svg' | prepend: site.baseurl }}" alt="My Address">
