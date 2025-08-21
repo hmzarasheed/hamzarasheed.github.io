@@ -28,37 +28,37 @@
       <img class="profile-img" src="{{ site.profile_img | prepend: site.baseurl }}" alt="My Photo">
       <ul class="personal-info">
         {% if site.phone_number %}
-        <li><a aria-label="My Phone" href="tel:{{ site.phone_number }}">
+        <li class="contact-left"><a aria-label="My Phone" href="tel:{{ site.phone_number }}">
           <img src="{{ '/assets/img/phone.svg' | prepend: site.baseurl }}" alt="My Phone Number">
           <div><span>{{ site.phone_number }}</span></div>
         </a></li>
         {% endif %}
         {% if site.address %}
-        <li><a aria-label="My Address" href="https://www.google.com/maps/search/{{ site.address }}">
+        <li class="contact-left"><a aria-label="My Address" href="https://www.google.com/maps/search/{{ site.address }}">
           <img src="{{ '/assets/img/location-dot.svg' | prepend: site.baseurl }}" alt="My Address">
           <div><span>{{ site.address }}</span></div>
         </a></li>
         {% endif %}
         {% if site.email %}
-          <li><a aria-label="My Email" href="mailto:{{ site.email }}">
+          <li class="contact-left"><a aria-label="My Email" href="mailto:{{ site.email }}">
             <img src="{{ '/assets/img/envelope.svg' | prepend: site.baseurl }}" alt="My Email">
             <div><span>{{ site.email }}</span></div>
           </a></li>
         {% endif %}
         {% if site.linkedin_username %}
-          <li><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+          <li class="contact-right"><a aria-label="My LinkedIn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
             <img src="{{ '/assets/img/linkedin.svg' | prepend: site.baseurl }}" alt="My LinkedIn">
             <div><span>@{{ site.linkedin_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.github_username %}
-          <li><a aria-label="My Github" href="https://github.com/{{ site.github_username }}">
+          <li class="contact-right"><a aria-label="My Github" href="https://github.com/{{ site.github_username }}">
             <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" alt="My Github">
             <div><span>@{{ site.github_username }}</span></div>
           </a></li>
         {% endif %}
         {% if site.resume_page %}
-          <li><a aria-label="My Resume" href="{{ site.resume_page | prepend: site.baseurl }}" target="_blank">
+          <li class="contact-right"><a aria-label="My Resume" href="{{ site.resume_page | prepend: site.baseurl }}" target="_blank">
             <img src="{{ '/assets/img/clipboard-list.svg' | prepend: site.baseurl }}" alt="My Resume">
             <div><span>Resume</span></div>
           </a></li>
