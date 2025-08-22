@@ -258,10 +258,11 @@ a { text-decoration:none; }
     code {
         margin:0 2px;
         padding:1px 5px;
-        font-size: 14px;
+        font-size: 15px;
         border: 1px solid var(--theme3-dim);
         background-color:var(--color-background);
         border-radius:3px;
+        font-weight: 500;
         font-family:'Courier New', Courier, monospace;
         color:var(--font-dark);
         position:relative;
